@@ -35,13 +35,13 @@ class _AuthScreenStateP extends State<AuthScreenP> {
             decoration: const BoxDecoration(
               color: Color(0xFF13548A),
               borderRadius: BorderRadius.only(
-                bottomLeft: Radius.circular(35),
+                  bottomLeft: Radius.circular(35),
                 bottomRight: Radius.circular(35),
               ),
             ),
             child: Column(
               children: [
-                SizedBox(height: size.height * 0.07),
+                SizedBox(height: size.height * 0.09),
                 Image.asset(
                   'assets/images/steth.png',
                   scale: 30,

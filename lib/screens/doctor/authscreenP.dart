@@ -42,7 +42,7 @@ class _AuthScreenStateD extends State<AuthScreenD> {
             ),
             child: Column(
               children: [
-                SizedBox(height: size.height * 0.07),
+                SizedBox(height: size.height * 0.04  ),
                 Image.asset(
                   'assets/images/steth.png',
                   scale: 30,
@@ -62,7 +62,7 @@ class _AuthScreenStateD extends State<AuthScreenD> {
                           'Sign In',
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 20,
+                            fontSize: 18,
                           ),
                         ),
                       ),
